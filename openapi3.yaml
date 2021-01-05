@@ -48,10 +48,7 @@ components:
       type: object
       required:
         - nom
-        - statut
-        - technologie
         - producteur
-        - typeCible
       properties:
         nom:
           title: Nom du test
@@ -64,7 +61,7 @@ components:
             - THOMSON
             - AKAI
         emailFabricant:
-          title: Email de l'opérateur
+          title: Email nominatif de l’opérateur (fabricant, distributeur, mandataire, importateur) 
           type: string
           format: email
         paysProduction:
