@@ -73,6 +73,10 @@ components:
           title: Brouillon
           type: boolean
           default: true
+        estConsidereComplet:
+          title: Le dossier est complet
+          type: boolean
+          default: false
         validation_CE:
           title: Marquage CE
           type: boolean
