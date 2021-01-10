@@ -54,7 +54,7 @@ components:
           title: Nom du test
           type: string
         producteur:
-          title: Fabricant
+          title: Nom du fabricant
           type: string
           example:
             - PHILIPS
