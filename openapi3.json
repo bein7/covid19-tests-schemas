@@ -80,7 +80,7 @@
             "type": "string"
           },
           "producteur": {
-            "title": "Fabricant",
+            "title": "Nom du fabricant",
             "type": "string",
             "example": [
               "PHILIPS",
@@ -89,7 +89,7 @@
             ]
           },
           "emailFabricant": {
-            "title": "Email de l'opérateur",
+            "title": "Email nominatif de l’opérateur (fabricant, distributeur, mandataire, importateur)",
             "type": "string",
             "format": "email"
           },
