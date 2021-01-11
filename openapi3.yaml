@@ -106,6 +106,8 @@ components:
           "$ref": "#/components/schemas/TypeReactif"
         typeCible:
           "$ref": "#/components/schemas/TypeCible"
+        typeTest:
+          "$ref": "#/components/schemas/TypeTest"
         nombreCibles:
           "$ref": "#/components/schemas/NombreCibles"
         machinesNecessaires:
@@ -385,13 +387,24 @@ components:
         - Extraction
       title: Type de réactif
       type: string
-    TypeCible:
+    TypeTest:
       enum:
         - Amplification génique
         - Sérologique
         - Antigénique
         - Autre
       title: Type de test
+      type: string
+    TypeCible:
+      enum:
+        - Protéines N
+        - Protéines S
+        - IgM
+        - IgG
+        - IgA
+        - Ig Totaux
+        - Autre
+      title: Type de cible
       type: string
     NombreCibles:
       enum:
