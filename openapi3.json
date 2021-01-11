@@ -322,7 +322,7 @@
             "type": "string"
           },
           "documents": {
-            "title": "Fiche produits, notice et documents",
+            "title": "Fiche produits, Fiche de Synthèse et autres documents",
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/File"
