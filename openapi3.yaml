@@ -237,7 +237,7 @@ components:
           title: Commentaires publics
           type: string
         documents:
-          title: "Fiche produits, notice et documents"
+          title: "Fiche produit, Fiche de synthèse et autres documents"
           type: array
           items:
             "$ref": "#/components/schemas/File"
