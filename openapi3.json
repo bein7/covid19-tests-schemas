@@ -88,7 +88,7 @@
               "AKAI"
             ]
           },
-          "emailFabricant": {
+          "emailOperateur": {
             "title": "Email nominatif de l’opérateur (fabricant, distributeur, mandataire, importateur)",
             "type": "string",
             "format": "email"
