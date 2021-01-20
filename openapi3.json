@@ -338,6 +338,13 @@
               "$ref": "#/components/schemas/File"
             }
           },
+          "ficheSynthese": {
+            "title": "Fiche de synthèse",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/File"
+            }
+          },
           "sensibiliteAnalytique": {
             "title": "Sensibilité analytique (seuil de détection)",
             "type": "string"
