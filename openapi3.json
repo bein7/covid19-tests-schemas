@@ -69,7 +69,6 @@
         "type": "object",
         "required": [
           "nom",
-          "statut",
           "technologie",
           "producteur",
           "typeTest"
