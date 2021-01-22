@@ -245,7 +245,7 @@
             "type": "string"
           },
           "specificite": {
-            "title": "Spécificité clinique déclarée par le fabricant (en %)",
+            "title": "Spécificité clinique déclarée par le fabricant",
             "type": "string"
           },
           "facteursDeVariation": {
