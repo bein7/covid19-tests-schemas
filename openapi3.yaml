@@ -189,10 +189,10 @@ components:
           title: Limite de détection
           type: string
         fourchettePrixBasse:
-          title: Fourchette de prix basse du test (par test)
+          title: Fourchette de prix basse du test (en euros par test)
           type: integer
         fourchettePrixHaute:
-          title: Fourchette de prix haute du test (par test)
+          title: Fourchette de prix haute du test (en euros par test)
           type: integer
         disponibiliteNationale:
           "$ref": "#/components/schemas/DisponibiliteNationale"
@@ -233,7 +233,7 @@ components:
           title: Points de contact
           type: string
         commentaires:
-          title: Commentaires internes
+          title: Commentaires non visibles publiquement
           type: string
         commentairesPublics:
           title: Commentaires publics
@@ -249,7 +249,7 @@ components:
           items:
             "$ref": "#/components/schemas/File"
         ficheSynthese:
-          title: "Fiche synthese"
+          title: "Fiche de synthèse (au format PDF)"
           type: array
           items:
             "$ref": "#/components/schemas/File"
@@ -437,7 +437,7 @@ components:
         - Température contrôlée
       type: string
     TypePrelevement:
-      title: Type de prélèvement nécessaire au test
+      title: Type de prélèvement (validé dans la notice du text)
       enum:
         - Sang total
         - Sérum / Plasma
