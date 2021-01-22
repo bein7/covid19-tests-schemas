@@ -176,7 +176,7 @@ components:
           title: Valeur Prédictive négative
           type: string
         sensibilite:
-          title: Sensibilité clinique déclarée par le fabricant (%)
+          title: Sensibilité clinique déclarée par le fabricant (en %)
           type: string
         specificite:
           title: Spécificité clinique déclarée par le fabricant
