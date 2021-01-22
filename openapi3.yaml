@@ -447,6 +447,8 @@ components:
         - "Écouvillon oropharyngé"
         - "Haleine / souffle"
         - Selles
+        - Nasal
+        - Expectoration
         - Autres
       type: string
     TypeProteine:
