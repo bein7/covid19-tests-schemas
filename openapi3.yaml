@@ -155,6 +155,9 @@ components:
         temperatureConservationMaxi:
           title: Température de conservation maximum
           type: number
+        temperatureConservationMoy:
+          title: Température de conservation moyenne
+          type: number
         durabiliteGarantiePeremption:
           title: Durabilité garantie avant péremption (en mois)
           type: number
@@ -173,7 +176,7 @@ components:
           title: Valeur Prédictive négative
           type: string
         sensibilite:
-          title: Sensibilité clinique déclarée par le fabricant
+          title: Sensibilité clinique déclarée par le fabricant (%)
           type: string
         specificite:
           title: Spécificité clinique déclarée par le fabricant
@@ -254,10 +257,10 @@ components:
           items:
             "$ref": "#/components/schemas/File"
         sensibiliteAnalytique:
-          title: Sensibilité analytique (seuil de détection)
+          title: Sensibilité analytique (en % seuil de détection)
           type: string
         sensibiliteDiagnostique:
-          title: Sensibilité diagnostique
+          title: Sensibilité diagnostique (en %)
           type: string
         nbEchantillonsSensibilite:
           title: Nombre total d’échantillons positifs en RT-PCR testés pour la sensibilité
@@ -287,10 +290,10 @@ components:
           type: string
           format: date
         sensibilite:
-          title: Sensibilité analytique (seuil de détection)
+          title: Sensibilité analytique (en % seuil de détection)
           type: string
         sensibiliteDiagnostique:
-          title: Sensibilité diagnostique / clinique
+          title: Sensibilité diagnostique / clinique (en %)
           type: string
         nbEchantillonsSensibilite:
           title: Nombre total d’échantillons positifs en RT-PCR testés pour la sensibilité
