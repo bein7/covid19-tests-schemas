@@ -173,7 +173,7 @@
             }
           },
           "typePrelevement": {
-            "title": "Type de prélèvement nécessaire au test",
+            "title": "Type de prélèvement (validé dans la notice du test)",
             "uniqueItems": true,
             "type": "array",
             "items": {
@@ -257,11 +257,11 @@
             "type": "string"
           },
           "fourchettePrixBasse": {
-            "title": "Fourchette de prix basse du test (par test)",
+            "title": "Fourchette de prix basse du test (en euros par test)",
             "type": "integer"
           },
           "fourchettePrixHaute": {
-            "title": "Fourchette de prix haute du test (par test)",
+            "title": "Fourchette de prix haute du test (en euros par test)",
             "type": "integer"
           },
           "disponibiliteNationale": {
@@ -316,7 +316,7 @@
             "type": "string"
           },
           "commentaires": {
-            "title": "Commentaires internes",
+            "title": "Commentaires non visibles publiquement",
             "type": "string"
           },
           "commentairesPublics": {
@@ -338,7 +338,7 @@
             }
           },
           "ficheSynthese": {
-            "title": "Fiche de synthèse",
+            "title": "Fiche de synthèse (au format PDF)",
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/File"
