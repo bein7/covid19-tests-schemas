@@ -213,8 +213,8 @@
             "title": "Température de conservation maximum",
             "type": "number"
           },
-          "temperatureConservationMoyen": {
-            "title": "Température de conservation moyen",
+          "temperatureConservationMoy": {
+            "title": "Température de conservation moyenne",
             "type": "number"
           },
           "durabiliteGarantiePeremption": {
@@ -241,11 +241,11 @@
             "type": "string"
           },
           "sensibilite": {
-            "title": "Sensibilité clinique déclarée par le fabricant (%)",
+            "title": "Sensibilité clinique déclarée par le fabricant (en %)",
             "type": "string"
           },
           "specificite": {
-            "title": "Spécificité clinique déclarée par le fabricant (%)",
+            "title": "Spécificité clinique déclarée par le fabricant (en %)",
             "type": "string"
           },
           "facteursDeVariation": {
@@ -353,7 +353,7 @@
             "type": "string"
           },
           "sensibiliteDiagnostique": {
-            "title": "Sensibilité diagnostique (%) ",
+            "title": "Sensibilité diagnostique (en %) ",
             "type": "string"
           },
           "nbEchantillonsSensibilite": {
@@ -394,11 +394,11 @@
             "format": "date"
           },
           "sensibilite": {
-            "title": "Sensibilité analytique (seuil de détection)",
+            "title": "Sensibilité analytique (seuil de détection en %)",
             "type": "string"
           },
           "sensibiliteDiagnostique": {
-            "title": "Sensibilité diagnostique / clinique",
+            "title": "Sensibilité diagnostique / clinique (en %)",
             "type": "string"
           },
           "nbEchantillonsSensibilite": {
@@ -449,7 +449,7 @@
         "type": "object",
         "properties": {
           "sensibiliteCNR": {
-            "title": "Sensibilité clinique évaluée par le CNR (%)",
+            "title": "Sensibilité clinique évaluée par le CNR (en %)",
             "type": "string"
           },
           "specificiteCNR": {
@@ -463,7 +463,7 @@
         "type": "object",
         "properties": {
           "sensibilite": {
-            "title": "Sensibilité cumulée à partir de J7 (%)",
+            "title": "Sensibilité cumulée à partir de J7 (en %)",
             "type": "integer"
           },
           "specificite": {
@@ -485,7 +485,7 @@
         "type": "object",
         "properties": {
           "sensibilite": {
-            "title": "Sensibilité cumulée à partir de J14 (%)",
+            "title": "Sensibilité cumulée à partir de J14 (en %)",
             "type": "integer"
           },
           "specificite": {
