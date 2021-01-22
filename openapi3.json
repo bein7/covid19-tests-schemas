@@ -213,6 +213,10 @@
             "title": "Température de conservation maximum",
             "type": "number"
           },
+          "temperatureConservationMoyen": {
+            "title": "Température de conservation moyen",
+            "type": "number"
+          },
           "durabiliteGarantiePeremption": {
             "title": "Durabilité garantie avant péremption (en mois)",
             "type": "number"
@@ -237,11 +241,11 @@
             "type": "string"
           },
           "sensibilite": {
-            "title": "Sensibilité clinique déclarée par le fabricant",
+            "title": "Sensibilité clinique déclarée par le fabricant (%)",
             "type": "string"
           },
           "specificite": {
-            "title": "Spécificité clinique déclarée par le fabricant",
+            "title": "Spécificité clinique déclarée par le fabricant (%)",
             "type": "string"
           },
           "facteursDeVariation": {
@@ -345,11 +349,11 @@
             }
           },
           "sensibiliteAnalytique": {
-            "title": "Sensibilité analytique (seuil de détection)",
+            "title": "Sensibilité analytique (seuil de détection en %)",
             "type": "string"
           },
           "sensibiliteDiagnostique": {
-            "title": "Sensibilité diagnostique",
+            "title": "Sensibilité diagnostique (%) ",
             "type": "string"
           },
           "nbEchantillonsSensibilite": {
@@ -445,7 +449,7 @@
         "type": "object",
         "properties": {
           "sensibiliteCNR": {
-            "title": "Sensibilité clinique évaluée par le CNR",
+            "title": "Sensibilité clinique évaluée par le CNR (%)",
             "type": "string"
           },
           "specificiteCNR": {
@@ -463,7 +467,7 @@
             "type": "integer"
           },
           "specificite": {
-            "title": "Spécificité (%)",
+            "title": "Spécificité",
             "type": "integer"
           },
           "ecartDeConfiance": {
