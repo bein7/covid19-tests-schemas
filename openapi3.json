@@ -373,7 +373,7 @@
             "$ref": "#/components/schemas/Evaluation"
           },
           "docsEvaluation": {
-            "title": "Fiche produits, notice et documents d’évaluations",
+            "title": "Documents d’évaluations",
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/File"
