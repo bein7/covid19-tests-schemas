@@ -245,7 +245,7 @@
             "type": "string"
           },
           "specificite": {
-            "title": "Spécificité clinique déclarée par le fabricant",
+            "title": "Spécificité clinique déclarée par le fabricant (en %)",
             "type": "string"
           },
           "facteursDeVariation": {
@@ -349,7 +349,7 @@
             }
           },
           "sensibiliteAnalytique": {
-            "title": "Sensibilité analytique (seuil de détection en %)",
+            "title": "Sensibilité analytique",
             "type": "string"
           },
           "sensibiliteDiagnostique": {
