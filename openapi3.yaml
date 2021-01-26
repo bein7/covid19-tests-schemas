@@ -179,7 +179,7 @@ components:
           title: Sensibilité clinique déclarée par le fabricant (en %)
           type: string
         specificite:
-          title: Spécificité clinique déclarée par le fabricant
+          title: Spécificité clinique déclarée par le fabricant (en %)
           type: string
         facteursDeVariation:
           # choix multiple ?
@@ -257,7 +257,7 @@ components:
           items:
             "$ref": "#/components/schemas/File"
         sensibiliteAnalytique:
-          title: Sensibilité analytique (en % seuil de détection)
+          title: Sensibilité analytique
           type: string
         sensibiliteDiagnostique:
           title: Sensibilité diagnostique (en %)
