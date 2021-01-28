@@ -104,8 +104,8 @@ components:
           "$ref": "#/components/schemas/TechnologieTest"
         typeReactif:
           "$ref": "#/components/schemas/TypeReactif"
-        typeCible:
-          "$ref": "#/components/schemas/TypeCible"
+        typeCibleTest:
+          "$ref": "#/components/schemas/TypeCibleTest"
         typeTest:
           "$ref": "#/components/schemas/TypeTest"
         nombreCibles:
@@ -409,7 +409,7 @@ components:
         - Autre
       title: Type de test
       type: string
-    TypeCible:
+    TypeCibleTest:
       enum:
         - Protéines N
         - Protéines S
@@ -538,6 +538,12 @@ components:
       enum:
         - Public
         - Non public
+        - Non signé
+        - Signé
+        - À vérifier
+        - Refusé
+        - Validé
+        - Incomplet
     ValidationStatusCNR:
       type: string
       enum:
